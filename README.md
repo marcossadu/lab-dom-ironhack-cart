@@ -179,6 +179,8 @@ Let's start:
 // src/index.js
 function updateSubtotal(product) {
   const price = product.querySelector('.price span');
+  const quantity= product.querySelector(".quantity");
+  
   // ... your code goes here
 }
 ```
